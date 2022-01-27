@@ -65,12 +65,12 @@ header{}
 	background-position: center;
 }
 .b_content{
-	margin: 100px 0;
+    margin: 100px 0;
 	width: 50%;
 	/*border: 3px solid red;*/
 }
 .b_content h1{
-	margin: 40px;
+	margin: 40px 40px 40px 0px;
 	font-family: sans-serif;
 	font-size: 62px;
 	font-weight: 700;
@@ -126,9 +126,9 @@ header{}
 .c_p{
 	margin: 0;
 	font-family: sans-serif;
-	font-size: 16px;
+	font-size: 17px;
 	font-weight: 700;
-	color: #535D69;
+	color:#BEBEBE;
 	line-height: 25px;
 	
 }
@@ -160,3 +160,147 @@ header{}
 
 /*works end*/
  
+/*learn start*/
+.learn{
+
+	background-color: #FAFAFA;
+	}
+.l_content{
+	margin: 50px 0;
+	width: 80%;
+	/*border: 1px solid red;*/
+     
+	
+
+}
+.col-1 {
+	justify-content: center;
+    float: left;
+    width: 50%;
+    align-items: center;
+    align-content: center;
+}
+.col-2 {
+	    width: 50%;
+        float: right;
+}
+.l_content h4{ 
+     /* margin: 40px 40px 40px 0px;*/
+	font-family: sans-serif;
+	font-size: ;
+	font-weight:;
+	text-transform: uppercase;   
+   
+}
+.l_content p{
+	color: #C8C8C8;
+}
+.l_content button{
+	margin-top: 30px;
+	width: 150px;
+	height: 50px;
+	background-color: #B91F3B;
+	border: none;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	color: white;
+	cursor: pointer;
+	transition: .3s;
+	text-transform: uppercase;  
+}
+.l_content button:hover{
+	background-color: white;
+    color: #B91F3B;
+}
+/*learn end*/
+
+/*features start*/
+
+.features{
+	padding: 90px 0;
+}
+.c_title{
+	margin: 0 auto 50px;
+	width: 70%;
+	/*border: 1px solid red;*/
+	text-align: center;
+}
+.c_h1{
+	margin: 0 0 20px;
+	font-family: sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	color: #434343;
+}
+.c_p{
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+	color:#BEBEBE;
+	line-height: 25px;
+	
+}
+.f_content{
+	/*border: 1px solid black;*/
+	overflow: hidden;
+}
+.single{
+	float: left;
+	padding: 20px 4.018%;
+	width: 25%;
+	/*border: 1px solid red;*/
+    text-align: center;
+    cursor:  pointer;
+}
+.s_img{
+	margin: 0 auto;
+	width: 100%;
+}
+.s_img{
+	width: 100%;
+}
+.single h5{
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color:#797979;
+	line-height: 20px;
+}
+.single p{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #BBBBBB;
+	line-height: 20px;
+	box: 10px 10px;
+}
+.single:hover{
+     box-shadow: 5px 5px 13px #888888;
+}
+/*features end*/
+/*see start*/
+.see{
+
+}
+.c_h6{
+	width: 100px;
+	text-align: center;
+	margin: 2px auto 0px;
+	font-family: sans-serif;
+	font-weight: 700;
+	color: #434343;
+	color: #DC8895;
+	line-height: 20px;
+	box: 10px 10px;
+	cursor: pointer;
+	box-shadow: 1px 1px 13px #888888
+
+
+
+    
+}
+
+
+/*see end*/
